@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Application</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link  rel="stylesheet"  href="SW.css">
+
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    
+    <div class="container">
+        <h1 class="stopwatch-title">Stop<span></span></h1>
+
+        <div class="display">
+            <span id="display">00:00:00</span>
+        </div>
+
+        <div class="buttons">
+            <button id="startStop" class="start-pause">Start</button>
+            <button id="lap" class="lap">Lap</button>
+            <button id="reset" class="reset">Reset</button>
+        </div>
+
+        <div class="laps-container">
+            <h2 class="laps-title">Lap Times</h2>
+            <ul id="laps" class="laps-list">
+                </ul>
+        </div>
+    </div>
+
+<footer style=" background-color: white;
+                text-align: center; 
+                padding: 1rem 0; 
+                color: #054e4e; 
+                font-size: 0.875rem; 
+                position: absolute; 
+                bottom: 0; 
+                width: 100%;">
+    &copy; 2025 Stopwatch App By Harsh Jaiswal. <br>Built with ❤️ using HTML, CSS & JavaScript.
+</footer>
+
+<script src="SW.js"></script>
+
+</body>
+</html>
